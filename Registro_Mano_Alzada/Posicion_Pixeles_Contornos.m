@@ -2,9 +2,8 @@ close all; clear; clc;
 addpath('Funciones'); % Carga la carpeta que contiene las funciones
 addpath('Imagenes'); % Carga la carpeta que contiene las Imagenes
 addpath('Archivos'); % Carga la carpeta que contiene los Archivos
-%% 
-load Parametros.mat  % Carga los parametros basicos de las imagenes y sensores de la base de datos
-load matrixPosFrame.mat
+%%  Carga los parametros basicos de las imagenes y sensores de la base de datos 
+load Parametros.mat  
 frames = Parametros(3,1); %Numero de frames
 width = Parametros(3,2);  
 height = Parametros(3,3); 
@@ -18,7 +17,7 @@ coor = Parametros(3,4); % Numero de coornadas [x y z]
 % ROI de cada frame
 
 load Posiciones_Imag.mat % Posiciones Frames obtenidas de las base de datos
-matrixPosFrame = cell(frames,2); %[framw,[x,y,z]]Cell que contiene las posiciones de cada pixel de cada imagen
+matrixPosFrame = cell(frames,2); %[frame,[x,y,z]]Cell que contiene las posiciones de cada pixel de cada imagen
 pixels = cell(1,3); % Contiene los pixeles de cada frame
 
 for i = 1:frames
