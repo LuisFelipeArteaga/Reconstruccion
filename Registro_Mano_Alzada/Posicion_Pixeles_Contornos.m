@@ -13,8 +13,7 @@ coor = Parametros(3,4); % Numero de coornadas [x y z]
 % Se calcula las posiciones de cada pixel de cada frame
 % Las posiciones se almacenan en un vector [ x, y, z, azimuth , elevation,  roll ] en angulos de Euler, Se realiza 
 % la transformacio de las posicones expresadas en angulos de Euler a angulos Tait-Bryan. 
-% Esto pude tomar demasiado tiempo, se puede calcular solo la frontera y
-% ROI de cada frame
+% Esto pude tomar un tiempo considerable.
 
 load Posiciones_Imag.mat % Posiciones Frames obtenidas de las base de datos
 matrixPosFrame = cell(frames,2); %[frame,[x,y,z]]Cell que contiene las posiciones de cada pixel de cada imagen
