@@ -1,0 +1,3 @@
+/home/felipe/Desktop/Reconstrucción/build/removing_outliers/build/CMakeFiles/rebuild_cache.dir
+/home/felipe/Desktop/Reconstrucción/build/removing_outliers/build/CMakeFiles/edit_cache.dir
+/home/felipe/Desktop/Reconstrucción/build/removing_outliers/build/CMakeFiles/RadiusOutlierRemoval.dir

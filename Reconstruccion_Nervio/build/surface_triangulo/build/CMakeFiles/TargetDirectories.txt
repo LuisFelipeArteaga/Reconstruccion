@@ -1,0 +1,3 @@
+/home/felipe/Desktop/Reconstrucción/build/surface_triangulo/build/CMakeFiles/edit_cache.dir
+/home/felipe/Desktop/Reconstrucción/build/surface_triangulo/build/CMakeFiles/rebuild_cache.dir
+/home/felipe/Desktop/Reconstrucción/build/surface_triangulo/build/CMakeFiles/greedy_projection.dir

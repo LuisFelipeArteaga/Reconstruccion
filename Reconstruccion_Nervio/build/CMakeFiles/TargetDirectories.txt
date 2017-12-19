@@ -1,0 +1,3 @@
+/home/felipe/Desktop/Reconstruccion_Nervio/build/CMakeFiles/edit_cache.dir
+/home/felipe/Desktop/Reconstruccion_Nervio/build/CMakeFiles/rebuild_cache.dir
+/home/felipe/Desktop/Reconstruccion_Nervio/build/CMakeFiles/main_Reconstruccion.dir
