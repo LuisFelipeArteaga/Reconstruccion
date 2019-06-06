@@ -1,0 +1,22 @@
+-I/usr/local/ANN/include
+-I/usr/include/qt4
+-I/usr/include/qt4/QtOpenGL
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtTest
+-I/usr/include/qt4/QtCore
+-I/usr/local/vcg
+-I/usr/include
+-I/usr/include
+-I/usr/include
+-I/home/felipe/Desktop/Reconstruccion_Interpolacion/L1-Skeleton-master/Point Cloud/build
+-I/home/felipe/Desktop/Reconstruccion_Interpolacion/L1-Skeleton-master/Point Cloud
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_OPENGL_LIB
+-DQT_GUI_LIB
+-DQT_TEST_LIB
+-DQT_CORE_LIB
+-D_YES_I_WANT_TO_USE_DANGEROUS_STUFF
+-D_VARIADIC_MAX=10
+-o
+/home/felipe/Desktop/Reconstruccion_Interpolacion/L1-Skeleton-master/Point Cloud/build/moc_calculationthread.cxx
+/home/felipe/Desktop/Reconstruccion_Interpolacion/L1-Skeleton-master/Point Cloud/calculationthread.h
