@@ -1,0 +1,24 @@
+function [q2best] = Seed_unique(q1,q2)
+[~,T] = size(q1);
+scl = 4;
+minE = 1000;
+for ctr = 0:floor((T)/scl)
+    q2n = ShiftF(q2,scl*ctr);
+    if norm(q1-q2n,'fro') > 0.0001
+        gam = DynamicProgrammingQ(q1,q2n,0,0);
+        gamI = invertGamma(gam);
+        gamI = (gamI-gamI(1))/(gamI(end)-gamI(1));
+        p2n = q_to_curve(q2n);
+        p2new = Group_Action_by_Gamma_Coord(p2n,gamI);
+        q2new = curve_to_q(p2new);
+        q2new = ProjectC(q2new);
+    else
+        q2new = q2n;
+    end
+    Ec = acos(InnerProd_Q(q1,q2new));
+    if Ec < minE
+        q2best  = q2new;
+        minE = Ec;
+    end
+end
+return;
