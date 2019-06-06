@@ -1,0 +1,12 @@
+close , clear, clc
+
+%% 
+x = linspace(1,2,20);
+[m,n] = meshgrid(x,x); 
+
+x0 = [1, 1, 2];
+x1 = [1, 1, 1];
+
+x = x0(1) + m*(x1-x0) + n*(x1-x0);
+y = y0 + m*(y1-y0) + n*(y1-y0);
+z = z0 + m*(z1-z0) + n*(z1-z0);
