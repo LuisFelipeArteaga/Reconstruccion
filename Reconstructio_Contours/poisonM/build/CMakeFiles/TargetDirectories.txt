@@ -1,0 +1,3 @@
+/home/felipe/Desktop/Rotation/poisonM/build/CMakeFiles/rebuild_cache.dir
+/home/felipe/Desktop/Rotation/poisonM/build/CMakeFiles/edit_cache.dir
+/home/felipe/Desktop/Rotation/poisonM/build/CMakeFiles/poisson.dir

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/felipe/Desktop/Rotation/poisonM/poisson.cpp
+CGAL/Exact_predicates_inexact_constructions_kernel.h
+-
+CGAL/Polyhedron_3.h
+-
+CGAL/poisson_surface_reconstruction.h
+-
+CGAL/IO/read_xyz_points.h
+-
+vector
+-
+fstream
+-
+
